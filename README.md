@@ -8,9 +8,16 @@ Control mensual de albaranes de proveedores (CIF B75506477). Cada mes se generan
 2026/
   3t/JULIO/ALBARANES/     4 Excel de julio
   3t/AGOSTO/ALBARANES/    4 Excel de agosto
+  3t/SEPTIEMBRE/ALBARANES/  4 Excel de septiembre
   COMPARATIVO PRECIOS 2026 LA MINA CHAMARTIN.xlsx    comparativo anual (solo productos que suben)
   formato-anterior/       versiones antiguas con el formato de Adri (se conservan)
+docs/
+  index.html              web "Compras y precios" (la misma que la de La Mina de Velázquez, con los datos de Chamartín)
 ```
+
+## Web
+
+`docs/index.html` es una página única que se abre en cualquier navegador: resumen del mes, precios que suben y bajan, precios iguales, productos que ya no se compran, total por proveedor e incidencias, con selector de mes (julio, agosto y septiembre de 2026). Precios netos; si un producto tiene varios precios en el mes se toma el más alto.
 
 ## Los 4 Excel de cada mes
 
@@ -34,6 +41,12 @@ Control mensual de albaranes de proveedores (CIF B75506477). Cada mes se generan
 - Control: 120 páginas, 120 albaranes, todos en el Excel (35 con alguna incidencia).
 - Cuadre: 3 a revisar — Pescarum agosto (70 €), Peñalastallas julio (67,29 €) y Carnicas Meat julio (0,06 €).
 - Comparativa (mayo · julio · agosto): 10 productos suben y 3 bajan. Incidencias: 38.
+
+### Septiembre 2026 — `ALBARANES SEPTIEMBRE LA MINA CHAMARTIN 2026 v1.xlsx`
+- Base 65.831,92 € · total con IVA 73.486,06 € · 305 albaranes (341 líneas) · 40 proveedores, 9 de ellos nuevos.
+- Control: 301 páginas revisadas en 6 PDF. 305 albaranes de Chamartín en el Excel; 1 de Velázquez y 7 documentos no incluidos (pedidos, albaranes sin valorar, una factura y un ticket de agosto). Dos albaranes tapados por otro en el escaneo están solo por el importe.
+- Cuadre: los 40 de septiembre dan OK; siguen los 3 de julio y agosto.
+- Comparativa (julio · agosto · septiembre): 15 productos suben y 7 bajan. Incidencias: 40 pendientes (numeración estable: las de septiembre son de la 39 a la 67).
 
 ## Procedimiento mensual
 
