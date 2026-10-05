@@ -11,13 +11,12 @@ Control mensual de albaranes de proveedores (CIF B75506477). Cada mes se generan
   3t/SEPTIEMBRE/ALBARANES/  4 Excel de septiembre
   COMPARATIVO PRECIOS 2026 LA MINA CHAMARTIN.xlsx    comparativo anual (solo productos que suben)
   formato-anterior/       versiones antiguas con el formato de Adri (se conservan)
-docs/
-  index.html              web "Compras y precios" (la misma que la de La Mina de Velázquez, con los datos de Chamartín)
+index.html                web "Compras y precios" (la misma que la de La Mina de Velázquez, con los datos de Chamartín)
 ```
 
 ## Web
 
-`docs/index.html` es una página única que se abre en cualquier navegador: resumen del mes, precios que suben y bajan, precios iguales, productos que ya no se compran, total por proveedor e incidencias, con selector de mes (julio, agosto y septiembre de 2026). Precios netos; si un producto tiene varios precios en el mes se toma el más alto.
+**https://curroariza.github.io/ALBARANES-LA-MINA-CHAMARTIN/** — publicada con GitHub Pages desde `index.html`, una página única que se abre en cualquier navegador: resumen del mes, precios que suben y bajan, precios iguales, productos que ya no se compran, total por proveedor e incidencias, con selector de mes (julio, agosto y septiembre de 2026). Precios netos; si un producto tiene varios precios en el mes se toma el más alto.
 
 ## Los 4 Excel de cada mes
 
