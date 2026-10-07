@@ -16,7 +16,7 @@ index.html                web "Compras y precios" (la misma que la de La Mina de
 
 ## Web
 
-**https://curroariza.github.io/ALBARANES-LA-MINA-CHAMARTIN/** — publicada con GitHub Pages desde `index.html`, una página única que se abre en cualquier navegador: resumen del mes, precios que suben y bajan, precios iguales, productos que ya no se compran, total por proveedor e incidencias, con selector de mes (julio, agosto y septiembre de 2026). Precios netos; si un producto tiene varios precios en el mes se toma el más alto.
+**https://curroariza.github.io/ALBARANES-LA-MINA-CHAMARTIN/** — publicada con GitHub Pages desde `index.html`. Es una página privada de los socios: pide contraseña al entrar (el contenido va cifrado en el propio archivo) y recuerda el dispositivo. Una página única que se abre en cualquier navegador: resumen del mes, precios que suben y bajan, precios iguales, productos que ya no se compran, total por proveedor e incidencias (con filtro por departamento: Gonzalos, Marcos / Financiero, Administración WIT y sin asignar), con selector de mes (julio, agosto y septiembre de 2026). Precios netos; si un producto tiene varios precios en el mes se toma el más alto.
 
 ## Los 4 Excel de cada mes
 
@@ -24,7 +24,7 @@ index.html                web "Compras y precios" (la misma que la de La Mina de
 |---|---|
 | `ALBARANES <MES> LA MINA CHAMARTIN 2026 vN.xlsx` | RESUMEN (KPIs, bases por tipo de IVA, compras por proveedor comparadas con el mes anterior con datos), TOTAL del mes (proveedor, albarán, base, IVA, total), CUADRE ALBARANES (líneas de producto vs albaranes vs TOTAL, OK/REVISAR con tolerancia de 0,05 €) y una hoja por proveedor con un bloque por mes |
 | `COMPARATIVA PRECIOS LA MINA CHAMARTIN <MES> 2026.xlsx` | Últimos 3 meses con datos: qué productos suben, bajan, se mantienen o son nuevos, con observaciones (los frescos fluctúan) |
-| `INCIDENCIAS LA MINA DE CHAMARTIN <MES> 2026.xlsx` | Incidencias con prioridad (ALTA/MEDIA/BAJA/INFO), acción sugerida y estado (PENDIENTE/REVISADO/CORREGIDO). Arrastra lo pendiente de meses anteriores |
+| `INCIDENCIAS LA MINA DE CHAMARTIN <MES> 2026.xlsx` | Incidencias con prioridad (ALTA/MEDIA/BAJA/INFO), acción sugerida, estado (PENDIENTE/REVISADO/CORREGIDO), lo que decide la asesoría (ACCION), el DEPARTAMENTO que se encarga y el RESULTADO. Arrastra lo pendiente de meses anteriores |
 | `CONTROL PDF LA MINA CHAMARTIN <MES> 2026.xlsx` | Control página a página de los PDF escaneados: qué albarán es cada página y si está en el Excel |
 
 ## Estado
@@ -41,11 +41,13 @@ index.html                web "Compras y precios" (la misma que la de La Mina de
 - Cuadre: 3 a revisar — Pescarum agosto (70 €), Peñalastallas julio (67,29 €) y Carnicas Meat julio (0,06 €).
 - Comparativa (mayo · julio · agosto): 10 productos suben y 3 bajan. Incidencias: 38.
 
-### Septiembre 2026 — `ALBARANES SEPTIEMBRE LA MINA CHAMARTIN 2026 v1.xlsx`
-- Base 65.831,92 € · total con IVA 73.486,06 € · 305 albaranes (341 líneas) · 40 proveedores, 9 de ellos nuevos.
-- Control: 301 páginas revisadas en 6 PDF. 305 albaranes de Chamartín en el Excel; 1 de Velázquez y 7 documentos no incluidos (pedidos, albaranes sin valorar, una factura y un ticket de agosto). Dos albaranes tapados por otro en el escaneo están solo por el importe.
-- Cuadre: los 40 de septiembre dan OK; siguen los 3 de julio y agosto.
-- Comparativa (julio · agosto · septiembre): 15 productos suben y 7 bajan. Incidencias: 40 pendientes (numeración estable: las de septiembre son de la 39 a la 67).
+### Septiembre 2026 — `ALBARANES SEPTIEMBRE LA MINA CHAMARTIN 2026 v2.xlsx`
+- Base 73.621,92 € · total con IVA 82.901,46 € · 308 albaranes (344 líneas) · 41 proveedores, 10 de ellos nuevos.
+- v2 (07/10/2026), tras la revisión de incidencias de la asesoría: detalle línea a línea de los tres tickets de Voldis que no se leían (reescaneados; las bases no cambian), ticket de Hielos Angel Ice del 29/08 (50,00 €) y las dos cargas de tanque de Mahou con **importe estimado** a 4,00 €/l (7.740,00 € de base) hasta que llegue la factura. La `v1` (65.831,92 €) se conserva.
+- Control: 303 páginas revisadas en 8 PDF (2 son reescaneos). 308 albaranes de Chamartín en el Excel; 1 de Velázquez y 4 documentos no incluidos (dos hojas de pedido, una factura y una muestra). Dos albaranes tapados por otro en el escaneo están solo por el importe.
+- Cuadre: los 41 de septiembre dan OK; siguen los 3 de julio y agosto.
+- Comparativa (julio · agosto · septiembre): 15 productos suben y 7 bajan.
+- Incidencias: 32 pendientes de 48; 16 cerradas el 07/10/2026. Cada pendiente lleva su departamento (Gonzalos 7, Marcos / Financiero 2, Administración WIT 2, sin asignar 21). Numeración estable: las de septiembre van de la 39 a la 68.
 
 ## Procedimiento mensual
 
